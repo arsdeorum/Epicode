@@ -6,38 +6,46 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #171717;
 }
-body:hover{
+/*body:hover{
+    filter: opacity(60%);
+    transition: all 0.1s;
+}*/
+.pic{
+    margin-top: 0;
+}
+.pic:hover{
     filter: opacity(60%);
     transition: all 0.1s;
 }
-.pic{
-position: relative;
+.pic:hover #save{
+    transform: translateY(-50px);
 }
 .frame {
     position: relative;
     display: flex;
-    background-color: #171717;
     border-radius: 20px;    
     overflow: hidden;
 }
-/*.style{
+.style{
     margin-bottom: 10rem;
-}*/
+}
 .icons{
     display: flex;
     flex-direction: row;
+    /*position: relative*/;
 }
 .icons:hover{
-position: relative;
+/*position: relative;*/
 }
 #save:hover{
-    transform: translateY(0,-50px);
+
 }
 #save{
     position: absolute;
     top: 100px;
-    left: 420px;
+    left: 380px;
     background-color: red;
     border-radius: 35px;
     text-align: center;
