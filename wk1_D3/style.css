@@ -61,6 +61,7 @@ body{
     text-align: center;
     font-size: 20px;
     padding: 7px;
+    height: 35px;
 }
 #up{
     position: absolute;
@@ -71,6 +72,8 @@ body{
     text-align: center;
     font-size: 20px;
     padding: 7px;
+    height: 35px;
+    width: 35px;
     }
 #dots{
     margin-bottom: 10px;
@@ -86,4 +89,6 @@ body{
     text-align: center;
     font-size: 20px;
     padding: 7px;
+    height: 35px;
+    width: 35px;
 }
