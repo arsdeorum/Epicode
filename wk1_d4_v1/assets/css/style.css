@@ -1,0 +1,351 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+
+ 
+body{
+     margin: 0;
+     font-family: 'Tinos', serif;
+}
+
+header {
+    background-color: #FFC017;
+    width: 100%;
+    height: 5rem;
+    border-bottom: solid 1px black;
+    position: fixed;
+    
+}
+
+header img {
+    width: 200px;
+    height: 50px;
+}
+.home {
+    background-color: #FFC017;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+
+}
+.text_home{
+
+    margin: 0 14vw;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.title {
+
+    font-size: 110px;
+    
+    margin: 0;
+
+}
+.title p, .number p, .item_name p {
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 25px;
+    width: 65%;
+    font-weight: bold;
+     color: rgba(41, 41, 41, 1)    
+
+}
+.text_home .bottom {
+
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 13vh;
+}
+
+
+
+.toolbar {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 13vw;
+    height: 100%;
+    align-items: center;
+}
+
+.tool {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tool div {
+
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+   
+}
+
+
+.mr {
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.boxes {
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: solid 1px rgba(230, 230, 230, 1);
+    padding-bottom: 3rem;
+    
+
+}
+.box {
+    display: flex;
+
+    
+}
+
+#boxm {
+
+    margin: 10px 0
+}
+.name {
+    display: flex;
+    align-items: center;
+    
+}
+
+.name  {
+
+    margin-left: 10px;
+}
+
+.number {
+
+    font-size: 38px;
+    margin: 0;
+    line-height: 50px;
+    color: rgba(230, 230, 230, 1);
+    font-weight: bold;
+ 
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+
+.info div h3 {
+
+    margin: 0.5vh 0;
+}
+
+.info div {
+
+    width: 22rem;
+}
+
+.info div p {
+
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 5px;
+    
+} 
+
+.stars {
+    display: flex;
+    align-items: end;
+}
+
+.name img, .item_name img{
+
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+
+#Trend  {
+    margin-left: 10.2vw;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+#Trend p {
+
+    margin-left: 0.7vw;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    margin: 0 10vw;
+    justify-content: space-between;
+
+}
+
+.news {
+
+    width: 60%;
+    padding: 12vh 0;
+    border-top: 1px solid rgba(230, 230, 230, 1);
+}
+
+.news_item {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.Twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact {
+    position: sticky;
+    top: 5.1rem;
+    height: 500px;
+    width: 400px;
+    
+    
+}
+.topic {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+
+    
+}
+.topic p {
+    padding: 8px 15px;
+}
+
+.Follow {
+    display: flex;
+    justify-content: space-between;
+}
+.Follow img {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.item_name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.item_desc h2,p {
+
+margin: 0;    
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 50px;
+}
+#info_day {
+    display: flex;
+    align-items: center;
+}
+
+#info_day img {
+
+    margin-left: 0.5vw;
+}
+
+#buttom  {
+
+    
+    height: 4vh;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    margin-left: 0.5vw;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.img  img{
+
+    width: 214px;
+}
+
+.vw30 {
+    width: 30vw;
+}
+
+.follow
+
+{
+
+    display: flex;
+    
+    margin: 0 10vw;
+    margin-top: 5vh;
+
+}
+
+.follow p {
+
+    
+    margin-right: 15px;
+
+}
+
+.follow p:hover {
+
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.fa-twitter {
+
+    font-size: 27px
+
+}   
+.Twitter div img {
+
+    width: 40px;
+}
+
+.Twitter div ion-icon {
+
+    font-size: 20px;
+}
